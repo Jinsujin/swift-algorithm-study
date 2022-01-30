@@ -44,7 +44,7 @@ class LinkedList {
 class Node {
     var data: Int
     var next : Node?
-    
+
     init(data: Int, next: Node? = nil) {
         self.data = data
         self.next = next
@@ -61,5 +61,17 @@ func p1158() {
         list.head = targetNode?.next
         result.append(String((targetNode?.data)!))
     }
-    print("<\(result.joined(separator: ","))>")
+    print("<\(result.joined(separator: ", "))>")
 }
+
+//func p1158() {
+//    let input = readLine()!.components(separatedBy: " ").map{Int($0)!}
+//    var array = Array(1...input[0])
+//    var index = 0, result = "<"
+//    while array.count != 1 {
+//        index = (index + input[1] - 1) % array.count
+//        result +=  String(array.remove(at:index)) + ", "
+//    }
+//    result += String(array[0]) + ">"
+//    print(result)
+//}
