@@ -75,21 +75,19 @@ class CircularLinkedList {
     }
     
     func removeByK(startNode: CLLNode?, by K: Int){
-        if isEmpty() { return }
+        if isEmpty() { return } //종료조건 - isEmpty()가 될 때 까지 재귀적으로 반복
         
         var current = startNode
-        
         for _ in 0..<K {
-            current = current?.next
+            current = current?.next //K번째 노드를 탐색
         }
         
         guard let currentIndex = current?.index else { return }
+        resultArray.append(currentIndex) //삭제될 index -> resultArray 프로퍼티에 저장
         
-        resultArray.append(currentIndex)
+        remove(targetNodeData: currentIndex) //연결리스트에서 삭제
         
-        remove(targetNodeData: currentIndex)
-        
-        removeByK(startNode: current, by: K)
+        removeByK(startNode: current, by: K) //삭제된 상태에서 다시 K번째 노드를 삭제하는 과정을 반복
     }
 }
 
