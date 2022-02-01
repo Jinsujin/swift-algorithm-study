@@ -46,12 +46,12 @@ class CircularLinkedList {
         else {
             newNode.next = tail?.next
             tail?.next = newNode
-            tail = newNode //기존 tail이 새로운 tail을 가리킴
+            tail = newNode
         }
         size += 1
     }
 
-    func remove(targetNodeData: Int) { //삭제할 노드가 tail이냐 아니냐가 중요하다
+    func remove(targetNodeData: Int) {
         if isEmpty() { return }
         
         if tail?.index == targetNodeData { //삭제할 노드가 tail이고
