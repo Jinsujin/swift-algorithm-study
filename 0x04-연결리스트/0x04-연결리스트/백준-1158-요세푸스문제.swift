@@ -55,11 +55,11 @@ class CircularLinkedList {
         if isEmpty() { return }
         
         if tail?.index == targetNodeData { //삭제할 노드가 tail이고
-            if tail?.next?.index == targetNodeData { //그 노드가 유일한 노드라면(tail.data == targetNodeData == head.data)
+            if tail?.next?.index == targetNodeData { //그 노드가 유일한 노드라면(tail.index == targetNodeData == head.index)
                 tail = nil
                 size -= 1
             }
-            else { //삭제할 노드가 tail이지만, 유일한 노드는 아니라면(tail.data == targetNodeData != head.data)
+            else { //삭제할 노드가 tail이지만, 유일한 노드는 아니라면(tail.index == targetNodeData != head.index)
                 let prevNode = searchPrevNode(targetNodeData: targetNodeData)
                 tail = prevNode
                 tail?.next = tail?.next?.next
@@ -114,6 +114,5 @@ func solution(_ N: Int, _ K: Int) {
             result += String("\(resultStr[i]), ")
         }
     }
-
     print(result)
 }
