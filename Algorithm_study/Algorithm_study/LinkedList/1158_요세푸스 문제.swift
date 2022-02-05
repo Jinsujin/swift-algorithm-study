@@ -11,8 +11,8 @@ import Foundation
 func p1158() {
     let input = readLine()!.components(separatedBy: " ").map{Int($0)!}
     let n = input[0], k = input[1]-1
-    let list = LinkedList<Any>()
-    (1...n).forEach{list.append(data: $0)}
+    let list = LinkedList<Int>()
+    (1...n).forEach{list.append(data:$0)}
     var result : [String] = []
     (1...n).forEach{_ in
         let targetNode = list.pop(Index: k)

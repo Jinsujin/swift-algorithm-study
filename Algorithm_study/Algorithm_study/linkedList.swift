@@ -33,8 +33,8 @@ class LinkedList<T> {
         var node = head
         while indexCount != Index {
             if node?.next === head {break}
-                node = node?.next
-                indexCount += 1
+            node = node?.next
+            indexCount += 1
         }
         let result = node?.next
         node?.next = node?.next?.next
@@ -43,50 +43,52 @@ class LinkedList<T> {
     func insert(data:T?, index: Int) {
         if head == nil {
             head = Node(data: data)
+            tail = head
             return
         }
-        if index == 0 {
-            head = Node(data: data, next: head)
-            tail?.next = head
+        let newNode = Node(data: data)
+        guard let frontNode = findNode(at: index-1) else {
+            self.tail?.next = newNode
+            self.tail = newNode
             return
         }
-        var tempIndex = 0
-        var node = head
-        while tempIndex != index {
-            if node?.next === head {break}
-            node = node?.next
-            tempIndex += 1
+        guard let nextNode = frontNode.next else {
+            frontNode.next = newNode
+            self.tail = newNode
+            return
         }
-        let nextNode = node?.next
-        node?.next = Node(data: data)
-        node?.next?.next = nextNode
-        if node?.next?.next === head {
-            tail = node?.next
+        newNode.next = nextNode
+        frontNode.next = newNode
+    }
+    func findNode(at index: Int) -> Node<T>? {
+        if index < 1 {
+            return head
         }
+        guard var node = self.head else {
+            return nil
+        }
+        for _ in 1...index {
+            guard let nextNode = node.next else {
+                return nil
+            }
+            node = nextNode
+        }
+        return node
     }
     func delete(Index : Int ) {
-        if head == nil {
+        guard let frontNode = findNode(at: Index-1) else {
             return
         }
-        if Index == 0 || head?.next === head {
-            head = head?.next
-            tail?.next = head
+        print(frontNode)
+        guard let removeNode = frontNode.next else {
             return
         }
-        var tempIndex = 0
-        var node = head
-        while tempIndex < Index-1 {
-            if node?.next?.next === head {break}
-            node = node?.next
-            tempIndex += 1
+        guard let nextNode = removeNode.next else {
+            frontNode.next = nil
+            self.tail = frontNode
+            return
         }
-        node?.next = node?.next?.next
-        if node?.next === head {
-            tail = node
-        }
-        if node === head {
-            head = node?.next
-        }
+        frontNode.next = nextNode
     }
     func listToString() -> String{
         if head == nil {
@@ -100,13 +102,25 @@ class LinkedList<T> {
         }
         result += String(describing: node!.data!)
         return result
+        
     }
+    func size() -> Int {
+            guard var node = self.head else {
+                return 0
+            }
+            var count = 0
+            while node.next != nil {
+                count += 1
+                node = node.next!
+            }
+            return count
+        }
 }
 
 class Node<T> {
     var data: T?
     var next : Node?
-
+    
     init(data: T?, next: Node? = nil) {
         self.data = data
         self.next = next
