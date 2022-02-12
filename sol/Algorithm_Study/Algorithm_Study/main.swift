@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+//0x05스택 백준 10828 출력
+mysolutionOf10828()
