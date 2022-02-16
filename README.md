@@ -8,7 +8,7 @@
 
 ## Stack
 
-- [#10828 스택](https://www.acmicpc.net/problem/100828)
+- [#10828 스택](https://www.acmicpc.net/problem/10828)
 [[풀이]](https://github.com/sanghyeok-kim/swift-algorithm-study/blob/mase/0x05%EC%8A%A4%ED%83%9D/0x05-%EC%8A%A4%ED%83%9D/0x05-%EC%8A%A4%ED%83%9D/%EB%B0%B1%EC%A4%80-10828-%EC%8A%A4%ED%83%9D.swift)
 
 - [#9012 괄호](https://www.acmicpc.net/problem/9012)
