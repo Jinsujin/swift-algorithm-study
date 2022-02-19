@@ -7,3 +7,8 @@
 * [#BOJ9012](https://www.acmicpc.net/problem/9012) [[풀이]](./Algorithm_Study/Algorithm_Study/Week2/9012.swift)
 * [#BOJ10773](https://www.acmicpc.net/problem/10773) [[풀이]](./Algorithm_Study/Algorithm_Study/Week2/10773.swift)
 
+---
+
+## Queue
+
+- [#BOJ10845](https://www.acmicpc.net/problem/10845) [[풀이]](./Algorithm_Study/Algorithm_Study/Week3/10845.swift)
