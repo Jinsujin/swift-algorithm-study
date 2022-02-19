@@ -16,7 +16,12 @@ struct Queue {
     var isEmpty : Bool {
         return count - head == 0 ? true : false
     }
-    
+    var first : Int {
+        return queue[head]
+    }
+    var max : Int {
+        return queue[head..<count].max()!
+    }
     mutating func enqueue(_ element: Int) {
         queue.append(element)
         count += 1
