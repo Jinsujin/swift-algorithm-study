@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Queue<T> {
-    var queue : [T?] = []
+struct Queue {
+    var queue : [Int] = []
     var head : Int = 0
     
     var count : Int {
@@ -19,19 +19,11 @@ struct Queue<T> {
         return queue.isEmpty
     }
     
-    mutating func enqueue(_ element: T) {
+    mutating func enqueue(_ element: Int) {
         queue.append(element)
     }
     
-    mutating func dequeue() -> T? {
-        guard head <= count, let element = queue[head] else { return nil}
-        queue[head] = nil
-        head += 1
-        
-        if head > 50 {
-            queue.removeFirst(head)
-            head = 0
-        }
-        return element
+    mutating func dequeue() -> Int {
+        return count == 0 ? -1 : queue.removeFirst()
     }
 }
