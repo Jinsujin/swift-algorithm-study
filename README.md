@@ -1,21 +1,9 @@
-# Swift 로 풀어보는 알고리즘
+# Swift Algorithm Study
 
-👉 더 자세한 스터디 내용은 [노션](https://cookie-giant-a00.notion.site/5ea7cb1af34247a9bc46d41506b6639d)에
+## Stack
 
-<br/>
+* [#BOJ10828](https://www.acmicpc.net/problem/10828) [[풀이]](./Algorithm_Study/Algorithm_Study/Week2/10828.swift)
 
-## 진행 상황
+* [#BOJ9012](https://www.acmicpc.net/problem/9012) [[풀이]](./Algorithm_Study/Algorithm_Study/Week2/9012.swift)
+* [#BOJ10773](https://www.acmicpc.net/problem/10773) [[풀이]](./Algorithm_Study/Algorithm_Study/Week2/10773.swift)
 
-| 회차 | 날짜  | 주제        | 문제                                         |
-| ---- | ----- | ----------- | -------------------------------------------- |
-| 01   | 02.09 | Linked List | [1158](https://www.acmicpc.net/problem/1158) |
-| 02   | 02.16 | Stack       | -                                            |
-
-<br/>
-
-## 참고 자료
-
-- [바킹독의 실전 알고리즘](https://github.com/encrypted-def/basic-algo-lecture)
-- [백준](https://www.acmicpc.net)
-
- 
