@@ -15,3 +15,6 @@ mySolutionOf9012()
 
 //0x05스택 백준 10773 출력
 mySolutionOf10773()
+
+//0x06큐 백준 10845 출력
+mySolutionOf10845()
