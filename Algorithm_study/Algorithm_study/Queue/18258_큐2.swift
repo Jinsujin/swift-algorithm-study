@@ -1,13 +1,12 @@
 //
-//  10848_큐1.swift
+//  18258_큐2.swift
 //  Algorithm_study
 //
 //  Created by dale on 2022/02/19.
 //
 
 import Foundation
-
-func p10845() {
+func p18258() {
     var queue = Queue()
     for _ in 0..<Int(readLine()!)!{
         let input = readLine()!.components(separatedBy: " ")
