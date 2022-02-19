@@ -1,3 +1,9 @@
 import Foundation
 
-solution_1156()
+
+// MARK:- Stack
+solution_10828()
+
+
+// MARK:- List
+//solution_1156()
