@@ -8,15 +8,15 @@
 import Foundation
 func p1966() {
     for _ in 0..<Int(readLine()!)! {
-        var docsQueue = Queue()
-        var indexQueue = Queue()
+        var docsQueue = Queue<Int>()
+        var indexQueue = Queue<Int>()
         var printCount = 1
         let input = readLine()!.components(separatedBy: " ").map{Int($0)!}
         let docs = readLine()!.components(separatedBy: " ").map{Int($0)!}
         (0..<input[0]).forEach{indexQueue.enqueue($0)}
         docs.forEach{docsQueue.enqueue($0)}
         while !docsQueue.isEmpty {
-            if docsQueue.first == docsQueue.max {
+            if docsQueue.first == docsQueue.queue.max() {
                 if indexQueue.first == input[1]{
                     break
                 }else{

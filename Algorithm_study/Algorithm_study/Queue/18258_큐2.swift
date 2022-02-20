@@ -7,7 +7,7 @@
 
 import Foundation
 func p18258() {
-    var queue = Queue()
+    var queue = Queue<Int>()
     for _ in 0..<Int(readLine()!)!{
         let input = readLine()!.components(separatedBy: " ")
         switch input[0] {
