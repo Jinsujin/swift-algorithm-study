@@ -12,3 +12,5 @@
 ## Queue
 
 - [#BOJ10845](https://www.acmicpc.net/problem/10845) [[풀이]](./Algorithm_Study/Algorithm_Study/Week3/10845.swift)
+
+- [#BOJ1966](https://www.acmicpc.net/problem/1966) [[풀이]](./Algorithm_Study/Algorithm_Study/Week3/1966.swift)
