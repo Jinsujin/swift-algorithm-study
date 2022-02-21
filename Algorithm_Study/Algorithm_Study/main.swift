@@ -18,3 +18,9 @@ mySolutionOf10773()
 
 //0x06큐 백준 10845 출력
 mySolutionOf10845()
+
+//0x06큐 백준 18258 출력 -> 포기
+
+//0x06큐 백준 1966 출력
+mySolutionOf1966()
+
