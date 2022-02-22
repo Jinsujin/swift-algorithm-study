@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F82D8DA27C2C7F200D18369 /* 10845.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82D8D927C2C7F200D18369 /* 10845.swift */; };
+		6F9190FF27C566FC007D2088 /* 1966.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9190FE27C566FC007D2088 /* 1966.swift */; };
 		6F932DC127AA9CA400D529CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F932DC027AA9CA400D529CC /* main.swift */; };
 		6F932DC927AA9F2C00D529CC /* 1156.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F932DC827AA9F2C00D529CC /* 1156.swift */; };
 		6FD6E90D27BD57B6008BBF9D /* 10828.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6E90C27BD57B6008BBF9D /* 10828.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		6F82D8D927C2C7F200D18369 /* 10845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10845.swift; sourceTree = "<group>"; };
+		6F9190FE27C566FC007D2088 /* 1966.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1966.swift; sourceTree = "<group>"; };
 		6F932DBD27AA9CA400D529CC /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F932DC027AA9CA400D529CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6F932DC827AA9F2C00D529CC /* 1156.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1156.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				6F82D8D927C2C7F200D18369 /* 10845.swift */,
+				6F9190FE27C566FC007D2088 /* 1966.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9190FF27C566FC007D2088 /* 1966.swift in Sources */,
 				6F82D8DA27C2C7F200D18369 /* 10845.swift in Sources */,
 				6FD6E90D27BD57B6008BBF9D /* 10828.swift in Sources */,
 				6F932DC927AA9F2C00D529CC /* 1156.swift in Sources */,
