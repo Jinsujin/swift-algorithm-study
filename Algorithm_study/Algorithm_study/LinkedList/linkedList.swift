@@ -79,7 +79,6 @@ class LinkedList<T> {
         guard let frontNode = findNode(at: Index-1) else {
             return
         }
-        print(frontNode)
         guard let removeNode = frontNode.next else {
             return
         }
