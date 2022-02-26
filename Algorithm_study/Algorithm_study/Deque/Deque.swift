@@ -7,9 +7,12 @@
 
 import Foundation
 
-struct Deque<T> {
+struct Deque<T:Equatable> {
     var enQueue : [T] = []
     var deQueue : [T] = []
+    var oneQueue : [T] {
+        return deQueue.reversed() + enQueue
+    }
     var size : Int {
         return enQueue.count + deQueue.count
     }
@@ -30,6 +33,9 @@ struct Deque<T> {
             return deQueue.first
         }
         return enQueue.last
+    }
+    func findIndex(of element: T) -> Int {
+        oneQueue.firstIndex(where: {$0 == element})!
     }
     
     mutating func pushFirst(_ element: T) {
