@@ -28,8 +28,12 @@
 
 | 회차 | 날짜  | 주제        | 문제                                                                                                                                                                                                                                                                  |
 | ---- | ----- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01   | 02.09 | Linked List | [1158](https://www.acmicpc.net/problem/1158)                                                                                                                                                                                                                          |
-| 02   | 02.16 | Stack       | [스택#10828](https://www.acmicpc.net/problem/10828), [괄호#9012](https://www.acmicpc.net/problem/9012), [제로#10773](https://www.acmicpc.net/problem/10773), [에디터#1406](https://www.acmicpc.net/problem/1406), [키로거#5397](https://www.acmicpc.net/problem/5397) |
+| 01   | 02.0  | Linked List | [1158](https://www.acmicpc.net/problem/1158)                                                                                                                                                                                                                          |
+| 02   | 02.09 | Stack       | [스택#10828](https://www.acmicpc.net/problem/10828), [괄호#9012](https://www.acmicpc.net/problem/9012), [제로#10773](https://www.acmicpc.net/problem/10773), [에디터#1406](https://www.acmicpc.net/problem/1406), [키로거#5397](https://www.acmicpc.net/problem/5397) |
+
+| 03 | 02.16 | Queue | [큐#10845](https://www.acmicpc.net/problem/10845), [큐2#18258](https://www.acmicpc.net/problem/18258), [프린터큐#1966](https://www.acmicpc.net/problem/1966), [앵무새#14713](https://www.acmicpc.net/problem/14713), [주차장#5464](https://www.acmicpc.net/problem/5464) |
+
+| 04 | 02.23 | 덱 | [덱#10866](https://www.acmicpc.net/problem/10866), [회전하는 큐#1021](https://www.acmicpc.net/problem/1021), [AC#5430](https://www.acmicpc.net/problem/5430)|
 
 <br/>
 
