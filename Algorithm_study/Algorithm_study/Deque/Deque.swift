@@ -34,6 +34,11 @@ struct Deque<T:Equatable> {
         }
         return enQueue.last
     }
+    mutating func reverse() {
+        let temp = enQueue
+        enQueue = deQueue
+        deQueue = temp
+    }
     func findIndex(of element: T) -> Int {
         oneQueue.firstIndex(where: {$0 == element})!
     }
