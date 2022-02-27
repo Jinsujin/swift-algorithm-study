@@ -26,3 +26,6 @@ mySolutionOf1966()
 
 //0x06큐 백준 14713 출력
 mySolutionOf14713()
+
+//0x07덱 백준 10866 출력
+mySolutionOf10866()

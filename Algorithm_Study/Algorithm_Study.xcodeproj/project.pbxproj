@@ -12,6 +12,7 @@
 		023A983C27B7F34B00117DA2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A983B27B7F34B00117DA2 /* main.swift */; };
 		023A984327B7F6CC00117DA2 /* 10828.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A984227B7F6CC00117DA2 /* 10828.swift */; };
 		023A984627B800C100117DA2 /* 9012.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023A984527B800C100117DA2 /* 9012.swift */; };
+		025D6A9D27CB28CA008D95FD /* 10866.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D6A9C27CB28CA008D95FD /* 10866.swift */; };
 		0283F7B327B95401006646D3 /* 10773.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0283F7B227B95401006646D3 /* 10773.swift */; };
 		02B5CB2D27C0CADA00981B7B /* 10845.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B5CB2C27C0CADA00981B7B /* 10845.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		023A983B27B7F34B00117DA2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		023A984227B7F6CC00117DA2 /* 10828.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10828.swift; sourceTree = "<group>"; };
 		023A984527B800C100117DA2 /* 9012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9012.swift; sourceTree = "<group>"; };
+		025D6A9C27CB28CA008D95FD /* 10866.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10866.swift; sourceTree = "<group>"; };
 		0283F7B227B95401006646D3 /* 10773.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10773.swift; sourceTree = "<group>"; };
 		02B5CB2C27C0CADA00981B7B /* 10845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10845.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				023A983B27B7F34B00117DA2 /* main.swift */,
 				023A984427B7F6D800117DA2 /* Week2 */,
 				02B5CB2F27C0CAE800981B7B /* Week3 */,
+				025D6A9E27CB28D4008D95FD /* Week4 */,
 			);
 			path = Algorithm_Study;
 			sourceTree = "<group>";
@@ -84,6 +87,15 @@
 				0283F7B227B95401006646D3 /* 10773.swift */,
 			);
 			path = Week2;
+			sourceTree = "<group>";
+		};
+		025D6A9E27CB28D4008D95FD /* Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				025D6A9C27CB28CA008D95FD /* 10866.swift */,
+			);
+			name = Week4;
+			path = ../Week4;
 			sourceTree = "<group>";
 		};
 		02B5CB2F27C0CAE800981B7B /* Week3 */ = {
@@ -157,6 +169,7 @@
 				0283F7B327B95401006646D3 /* 10773.swift in Sources */,
 				02227B0B27C53B4A00E7CFC5 /* 14713.swift in Sources */,
 				0209E8A327C3C04900AFCF71 /* 1966.swift in Sources */,
+				025D6A9D27CB28CA008D95FD /* 10866.swift in Sources */,
 				023A983C27B7F34B00117DA2 /* main.swift in Sources */,
 				023A984627B800C100117DA2 /* 9012.swift in Sources */,
 				02B5CB2D27C0CADA00981B7B /* 10845.swift in Sources */,
