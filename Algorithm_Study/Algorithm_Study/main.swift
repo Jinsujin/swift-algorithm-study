@@ -29,3 +29,6 @@ mySolutionOf14713()
 
 //0x07덱 백준 10866 출력
 mySolutionOf10866()
+
+//0x07덱 백준 1021 출력
+mySolutionOf1021()

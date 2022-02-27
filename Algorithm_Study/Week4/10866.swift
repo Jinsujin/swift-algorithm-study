@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Deque<T> {
+struct Deque<T: Equatable> {
     var dequeList = DoublyLinkedList<T>()
     var size: Int {
         return dequeList.countNode
@@ -40,7 +40,7 @@ struct Deque<T> {
     
 }
 
-struct DoublyLinkedList<T> {
+struct DoublyLinkedList<T: Equatable> {
     var head: Node<T>?
     var tail: Node<T>?
     var countNode = 0
@@ -109,9 +109,21 @@ struct DoublyLinkedList<T> {
         countNode -= 1
         return temp?.data
     }
+    func index(of data: T) -> Int {
+        var count = 0
+        var tempNode = head
+        while tempNode?.next != nil {
+            if tempNode?.data == data {
+                break
+            }
+            tempNode = tempNode?.next
+            count += 1
+        }
+        return count
+    }
 }
 
-class Node<T> {
+class Node<T: Equatable> {
     var data: T
     var next: Node<T>?
     var prev: Node<T>?
