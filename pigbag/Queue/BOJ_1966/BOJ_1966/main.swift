@@ -24,7 +24,6 @@ while count < firstInput {
     let documentArray = readLine()!.components(separatedBy: " ").map { Int($0)! }
     
     //문서의 갯수
-
     var head = 0
     var tail = 0
 
@@ -39,11 +38,8 @@ while count < firstInput {
     
     //궁금한 문서의 인덱스에 해당하는 문서가 나올때 까지 루프를 돌린다.
     while true {
-        
         tail = documentArray.count
-        
         var removedElement:Int = 0
-        
         //isPop함수가 true면 큐에서 제거하고 출력횟수 + 1
         if isPoped(array: copyDoucmentArray, currentHead: &head, currentTail: &tail) {
             removedElement = copyDoucmentArray.remove(at: head)
@@ -52,7 +48,7 @@ while count < firstInput {
                     print(popCount)
                     break
                 }
-            
+        
         //그렇지 않다면 끝에다가 현재 head가 가르키고 있는 요소를 끝에다 배치한다.
         } else {
             let willRelpaceElement = copyDoucmentArray.remove(at: head) //지우고
