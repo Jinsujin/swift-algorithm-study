@@ -16,3 +16,15 @@
 - [#BOJ1966](https://www.acmicpc.net/problem/1966) [[풀이]](./Algorithm_Study/Algorithm_Study/Week3/1966.swift)
 
 - [#BOJ14713](https://www.acmicpc.net/problem/14713) [[풀이]](./Algorithm_Study/Algorithm_Study/Week3/14713.swift)
+
+---
+
+
+
+## Deque
+
+- [#BOJ10866](https://www.acmicpc.net/problem/10866) [[풀이]](./Algorithm_Study/Algorithm_Study/Week4/10866.swift)
+
+- [#BOJ1021](https://www.acmicpc.net/problem/1021) [[풀이]](./Algorithm_Study/Algorithm_Study/Week4/1021.swift)
+
+	
