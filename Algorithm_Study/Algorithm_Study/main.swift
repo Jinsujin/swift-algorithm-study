@@ -35,3 +35,6 @@ mySolutionOf1021()
 
 //0x09BFS 백준 1260 출력
 mySolutionOf1260()
+
+//0x09BFS 백준 2178 출력
+mySolutionOf2178()
