@@ -38,3 +38,6 @@ mySolutionOf1260()
 
 //0x09BFS 백준 2178 출력
 mySolutionOf2178()
+
+//0x09BFS 프로그래머스 타겟넘버 출력
+print(mySolutionOf타겟넘버(numbers: [1,1,1,1,1], target: 3))
