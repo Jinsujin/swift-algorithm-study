@@ -24,7 +24,6 @@ for i in 0..<N {
 func bfs(start: (x: Int, y: Int)) {
     var visited = Array(repeating: Array(repeating: false, count: M), count: N)
     var queue = [start]
-    var index = 0
     
     let directionX = [0, 0, 1, -1]
     let directionY = [-1, 1, 0, 0]
@@ -32,8 +31,8 @@ func bfs(start: (x: Int, y: Int)) {
     var visitedCount = Array(repeating: Array(repeating: 0, count: M), count: N)
     visitedCount[start.x][start.y] = 1
     
-    while queue.count > index {
-        let node = queue[index]
+    while !queue.isEmpty {
+        let node = queue.first!
         
             for i in 0..<4 {
                 let nextX = node.x + directionX[i]
@@ -49,8 +48,7 @@ func bfs(start: (x: Int, y: Int)) {
                     visitedCount[nextX][nextY] += visitedCount[node.x][node.y] + 1
                 }
             }
-        
-        index += 1
+        queue.removeFirst()
     }
     
     print(visitedCount.last!.last!)
