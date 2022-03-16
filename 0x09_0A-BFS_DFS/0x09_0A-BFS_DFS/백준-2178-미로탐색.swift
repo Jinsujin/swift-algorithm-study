@@ -51,7 +51,7 @@ func bfs(start: (x: Int, y: Int)) {
         queue.removeFirst()
     }
     
-    print(visitedCount.last!.last!)
+    print(visitedCount[N - 1][M - 1])
 }
 
 bfs(start: (0, 0))
