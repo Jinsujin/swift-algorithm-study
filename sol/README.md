@@ -27,4 +27,12 @@
 
 - [#BOJ1021](https://www.acmicpc.net/problem/1021) [[풀이]](./Algorithm_Study/Algorithm_Study/Week4/1021.swift)
 
-	
+---
+
+## BFS
+
+- [#BOJ1260](https://www.acmicpc.net/problem/1260) [[풀이]](./Algorithm_Study/Algorithm_Study/Week5/1260.swift)
+
+- [#BOJ2178](https://www.acmicpc.net/problem/2178) [[풀이]](./Algorithm_Study/Algorithm_Study/Week6/2178.swift)
+
+- [#Programmers-타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165#qna) [[풀이]](./Algorithm_Study/Algorithm_Study/Week6/타겟넘버.swift)
