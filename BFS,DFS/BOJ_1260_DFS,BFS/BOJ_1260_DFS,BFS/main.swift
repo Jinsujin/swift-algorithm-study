@@ -24,10 +24,10 @@ for _ in 0..<m {
     
     graph[start].append(end)        //1 2 , 1 3, 1 4, 2 4, 3 4
     graph[end].append(start)        //2 1 , 3 1, 4 1 , 4 2 , 4 3
-    
+     
     graph[start].sort()
     graph[end].sort()
-    
+    print(graph)
 }
 
 /*
@@ -61,6 +61,7 @@ func dfs(_ start:Int) {
             dfs(i)
         }
     }
+    
 }
 
 
@@ -68,7 +69,6 @@ func bfs(_ start:Int) {
     var queue: [Int] = [start]          //시작점은 미리 넣어둔다.
     
     visited[start] = true
-    
     
     while queue.isEmpty == false {
         let willRemoveNode = queue.removeFirst()
@@ -79,6 +79,7 @@ func bfs(_ start:Int) {
             if !visited[i] {
                 queue.append(i)
                 visited[i] = true
+                print(queue)
             }
         }
     }
