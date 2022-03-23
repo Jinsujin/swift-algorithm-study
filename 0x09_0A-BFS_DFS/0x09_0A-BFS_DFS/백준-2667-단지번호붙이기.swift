@@ -25,10 +25,9 @@ for i in 0..<N {
 //count를 오름차순으로 정렬
 
 func DFS(start: (x: Int, y: Int)) -> Int {
-    
     var stack = [start]
-    blocks[start.x][start.y] = 0 //방문했다고 처리
     
+    blocks[start.x][start.y] = 0 //방문했다고 처리
     var count = 1
     
     while !stack.isEmpty {
@@ -44,13 +43,12 @@ func DFS(start: (x: Int, y: Int)) -> Int {
             
             if blocks[nextX][nextY] == 1 { //갈 수 있으면
                 blocks[nextX][nextY] = 0 //0으로 만들고
-                
                 stack.append((nextX, nextY)) //스택에 추가
-                
                 count += 1
             }
         }
     }
+    
     return count
 }
 
@@ -66,4 +64,5 @@ for i in 0..<N {
     }
 }
 
+print(numberOfBlocks)
 eachBlockCount.sorted().map{ print($0) }
