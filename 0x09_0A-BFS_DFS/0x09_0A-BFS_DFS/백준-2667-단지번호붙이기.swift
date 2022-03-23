@@ -30,14 +30,10 @@ func DFS(start: (x: Int, y: Int)) -> Int {
     blocks[start.x][start.y] = 0 //방문했다고 처리
     
     var count = 1
-    for i in 0..<blocks.count {
-        print(blocks[i])
-    }
     
     while !stack.isEmpty {
         let current = stack.removeLast()
         
-        print(stack)
         for i in 0..<4 {
             let nextX = current.x + directionX[i]
             let nextY = current.y + directionY[i]
@@ -50,13 +46,11 @@ func DFS(start: (x: Int, y: Int)) -> Int {
                 blocks[nextX][nextY] = 0 //0으로 만들고
                 
                 stack.append((nextX, nextY)) //스택에 추가
-                print(stack)
                 
                 count += 1
             }
         }
     }
-    print(count)
     return count
 }
 
