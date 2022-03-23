@@ -18,11 +18,11 @@ for i in 0..<N {
     blocks[i] = input
 }
 
-//0,0부터 탐색
-//0이라면 pass
-//1이고, visited가 false라면 그 자리에서 DFS 시작한다
-//더 이상 갈 곳이 없을 때 까지 dfs/bfs를 반복하며, 반복할 때 마다 count를 센다
-//count를 오름차순으로 정렬
+//(0,0) 부터 탐색
+//0 이라면, pass
+//1 이라면, 그 자리에서 DFS 시작한다
+//더 이상 갈 곳이 없을 때 까지 DFS를 반복하며, 반복할 때 마다 count를 센다
+
 
 func DFS(start: (x: Int, y: Int)) -> Int {
     var stack = [start]
