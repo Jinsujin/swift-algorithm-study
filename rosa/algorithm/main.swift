@@ -1,7 +1,10 @@
 import Foundation
 
+// MARK:- bfs & dfs
+boj_2667().solution()
+
 // MARK:- Deque
-boj_10866().solution()
+//boj_10866().solution()
 
 // MARK:- Queue
 //boj_10845().solution()
