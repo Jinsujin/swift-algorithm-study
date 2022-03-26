@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F4D1BD627EB3BB900592F40 /* 2667.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D1BD527EB3BB900592F40 /* 2667.swift */; };
 		6F82D8DA27C2C7F200D18369 /* 10845.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82D8D927C2C7F200D18369 /* 10845.swift */; };
 		6F9190FF27C566FC007D2088 /* 1966.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9190FE27C566FC007D2088 /* 1966.swift */; };
 		6F932DC127AA9CA400D529CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F932DC027AA9CA400D529CC /* main.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F4D1BD527EB3BB900592F40 /* 2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2667.swift; sourceTree = "<group>"; };
 		6F82D8D927C2C7F200D18369 /* 10845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10845.swift; sourceTree = "<group>"; };
 		6F9190FE27C566FC007D2088 /* 1966.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1966.swift; sourceTree = "<group>"; };
 		6F932DBD27AA9CA400D529CC /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 		6F932DBF27AA9CA400D529CC /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				6FF93C5527EAA5F000BD662E /* BFS-DFS */,
 				6FC7FE1C27CDC159007CCC94 /* Deque */,
 				6F82D8D827C2C74800D18369 /* Queue */,
 				6FD6E90B27BD56ED008BBF9D /* Stack */,
@@ -107,6 +110,14 @@
 				6FD6E90C27BD57B6008BBF9D /* 10828.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		6FF93C5527EAA5F000BD662E /* BFS-DFS */ = {
+			isa = PBXGroup;
+			children = (
+				6F4D1BD527EB3BB900592F40 /* 2667.swift */,
+			);
+			path = "BFS-DFS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			files = (
 				6F9190FF27C566FC007D2088 /* 1966.swift in Sources */,
 				6F82D8DA27C2C7F200D18369 /* 10845.swift in Sources */,
+				6F4D1BD627EB3BB900592F40 /* 2667.swift in Sources */,
 				6FD6E90D27BD57B6008BBF9D /* 10828.swift in Sources */,
 				6FC7FE1E27CDC179007CCC94 /* 10866.swift in Sources */,
 				6F932DC927AA9F2C00D529CC /* 1156.swift in Sources */,
