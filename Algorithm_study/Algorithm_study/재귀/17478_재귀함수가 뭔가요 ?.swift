@@ -12,8 +12,8 @@ func p17418() {
     let defaultString = """
     어느 한 컴퓨터공학과 학생이 유명한 교수님을 찾아가 물었다.
     """
-    print("\(defaultString)\n\(reculsive(n))")
-    func reculsive(_ m : Int) -> String {
+    print("\(defaultString)\n\(recursive(n))")
+    func recursive(_ m : Int) -> String {
         let line = String(repeating: "_", count: 4*(n-m))
         let string : String =
             """
@@ -31,6 +31,6 @@ func p17418() {
             """
             return "\(answer)"
         }
-        return "\(string)\n\(reculsive(m-1))\n\(line)라고 답변하였지."
+        return "\(string)\n\(recursive(m-1))\n\(line)라고 답변하였지."
     }
 }

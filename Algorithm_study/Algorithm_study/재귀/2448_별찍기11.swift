@@ -8,13 +8,13 @@
 import Foundation
 func p2448() {
     let n = Int(readLine()!)!
-    let triangle = reculsive(3, ["*","* *","*****"])
+    let triangle = recursive(3, ["*","* *","*****"])
     
     for i in 0..<triangle.count {
         let front = String(repeating: " ", count: n-1-i)
         print("\(front)\(triangle[i])\(front)")
     }
-    func reculsive(_ m: Int, _ triangle: [String]) -> [String]{
+    func recursive(_ m: Int, _ triangle: [String]) -> [String]{
         if m == n {
             return triangle
         }
@@ -25,6 +25,6 @@ func p2448() {
             count -= 2
             temp.append("\(triangle[i])\(blank)\(triangle[i])")
         }
-        return reculsive(2 * m, temp)
+        return recursive(2 * m, temp)
     }
 }
