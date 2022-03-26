@@ -36,3 +36,6 @@
 - [#BOJ2178](https://www.acmicpc.net/problem/2178) [[풀이]](./Algorithm_Study/Algorithm_Study/Week6/2178.swift)
 
 - [#Programmers-타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165#qna) [[풀이]](./Algorithm_Study/Algorithm_Study/Week6/타겟넘버.swift)
+
+- [#BOJ2667](https://www.acmicpc.net/problem/2667) [[풀이]](./Algorithm_Study/Algorithm_Study/Week7/2667.swift)
+
