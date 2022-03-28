@@ -44,3 +44,6 @@ print(mySolutionOf타겟넘버(numbers: [1,1,1,1,1], target: 3))
 
 //0x09BFS 백준 2667 출력
 mySolutionOf2667()
+
+//0x10재귀함수 백준 17478 출력
+mySolutionOf17478()
