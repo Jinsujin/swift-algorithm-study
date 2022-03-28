@@ -47,3 +47,6 @@ mySolutionOf2667()
 
 //0x10재귀함수 백준 17478 출력
 mySolutionOf17478()
+
+//0x10 재귀함수 백준 2447 출력
+mySolutionOf2447()
