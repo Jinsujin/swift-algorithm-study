@@ -25,5 +25,6 @@ import Foundation
 //p17418()
 //p2448()
 //p2447()
-print(nExpression(2, 1))
+//print(nExpression(2, 1))
+print(targetNumber([4,1,2,1], 4))
 
