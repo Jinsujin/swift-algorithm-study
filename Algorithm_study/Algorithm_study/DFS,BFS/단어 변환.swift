@@ -22,8 +22,7 @@ func convertWord(_ begin:String, _ target:String, _ words:[String]) -> Int {
         }
         return (count == alphabets.count-1)
     }
-    let wordsCount = words.count
-    var answer = wordsCount-1
+    var answer = words.count-1
     func dfs(_ string: String,_ index: Int, _ count: Int) {
         if count >= answer {
             return
