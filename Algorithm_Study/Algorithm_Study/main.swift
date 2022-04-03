@@ -56,3 +56,6 @@ print(mySolutionOfN으로표현(5, 12))
 
 //코딩테스트준비 프로그래머스 단어변환 출력
 print(mySolutionOf단어변환("hit", "cog", ["hot", "dot", "dog", "lot", "log"]))
+
+//코딩테스트준비 프로그래머스 기능개발 출력
+print(mySolutionOf기능개발([95, 90, 99, 99, 80, 99], [1, 1, 1, 1, 1, 1]))
