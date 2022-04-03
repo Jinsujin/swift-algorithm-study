@@ -53,3 +53,6 @@ mySolutionOf2447()
 
 //코딩테스트준비 프로그래머스 N으로 표현 출력
 print(mySolutionOfN으로표현(5, 12))
+
+//코딩테스트준비 프로그래머스 단어변환 출력
+print(mySolutionOf단어변환("hit", "cog", ["hot", "dot", "dog", "lot", "log"]))
