@@ -50,3 +50,6 @@ mySolutionOf17478()
 
 //0x10함수 백준 2447 출력
 mySolutionOf2447()
+
+//코딩테스트준비 프로그래머스 N으로 표현 출력
+print(mySolutionOfN으로표현(5, 12))
