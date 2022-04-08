@@ -43,3 +43,11 @@
 
 - [#BOJ17478](https://www.acmicpc.net/problem/17478) [[풀이]](./Algorithm_Study/Algorithm_Study/Week8/17478.swift)
 - [#BOJ2447](https://www.acmicpc.net/problem/2447) [[풀이]](./Algorithm_Study/Algorithm_Study/Week8/2447.swift)
+
+---
+
+## 코딩테스트 준비
+
+- [#Programmers-N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895?language=swift) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/N으로 표현.swift)
+- [#Programmers-단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/단어변환.swift)
+- [#Programmers-기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/기능개발.swift)
