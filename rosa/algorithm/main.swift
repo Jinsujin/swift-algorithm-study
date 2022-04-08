@@ -1,11 +1,14 @@
 import Foundation
 
+// MARK:- 동적계획법
 
 // MARK:- 재귀
-boj_17478().solution()
+//boj_17478().solution()
 
 // MARK:- bfs & dfs
 //boj_2667().solution()
+let result = programmers_43165().solution([1,1,1,1,1], 3)
+print(result) // 5
 
 // MARK:- Deque
 //boj_10866().solution()
