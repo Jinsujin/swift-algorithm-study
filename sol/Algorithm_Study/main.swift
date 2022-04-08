@@ -41,3 +41,21 @@ mySolutionOf2178()
 
 //0x09BFS 프로그래머스 타겟넘버 출력
 print(mySolutionOf타겟넘버(numbers: [1,1,1,1,1], target: 3))
+
+//0x09BFS 백준 2667 출력
+mySolutionOf2667()
+
+//0x10함수 백준 17478 출력
+mySolutionOf17478()
+
+//0x10함수 백준 2447 출력
+mySolutionOf2447()
+
+//코딩테스트준비 프로그래머스 N으로 표현 출력
+print(mySolutionOfN으로표현(5, 12))
+
+//코딩테스트준비 프로그래머스 단어변환 출력
+print(mySolutionOf단어변환("hit", "cog", ["hot", "dot", "dog", "lot", "log"]))
+
+//코딩테스트준비 프로그래머스 기능개발 출력
+print(mySolutionOf기능개발([95, 90, 99, 99, 80, 99], [1, 1, 1, 1, 1, 1]))

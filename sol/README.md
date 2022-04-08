@@ -19,8 +19,6 @@
 
 ---
 
-
-
 ## Deque
 
 - [#BOJ10866](https://www.acmicpc.net/problem/10866) [[풀이]](./Algorithm_Study/Algorithm_Study/Week4/10866.swift)
@@ -36,3 +34,20 @@
 - [#BOJ2178](https://www.acmicpc.net/problem/2178) [[풀이]](./Algorithm_Study/Algorithm_Study/Week6/2178.swift)
 
 - [#Programmers-타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165#qna) [[풀이]](./Algorithm_Study/Algorithm_Study/Week6/타겟넘버.swift)
+
+- [#BOJ2667](https://www.acmicpc.net/problem/2667) [[풀이]](./Algorithm_Study/Algorithm_Study/Week7/2667.swift)
+
+---
+
+## 재귀
+
+- [#BOJ17478](https://www.acmicpc.net/problem/17478) [[풀이]](./Algorithm_Study/Algorithm_Study/Week8/17478.swift)
+- [#BOJ2447](https://www.acmicpc.net/problem/2447) [[풀이]](./Algorithm_Study/Algorithm_Study/Week8/2447.swift)
+
+---
+
+## 코딩테스트 준비
+
+- [#Programmers-N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895?language=swift) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/N으로 표현.swift)
+- [#Programmers-단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/단어변환.swift)
+- [#Programmers-기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/기능개발.swift)
