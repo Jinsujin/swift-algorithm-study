@@ -24,5 +24,8 @@ import Foundation
 //p2667()
 //p17418()
 //p2448()
-p2447()
-
+//p2447()
+//print(nExpression(2, 1))
+//print(targetNumber([4,1,2,1], 4))
+//print(convertWord("hit", "cog",["cog", "log", "lot", "dog", "dot", "hot"]))
+p1753()
