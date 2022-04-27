@@ -59,3 +59,6 @@ print(mySolutionOf단어변환("hit", "cog", ["hot", "dot", "dog", "lot", "log"]
 
 //코딩테스트준비 프로그래머스 기능개발 출력
 print(mySolutionOf기능개발([95, 90, 99, 99, 80, 99], [1, 1, 1, 1, 1, 1]))
+
+//week10 메뉴리뉴얼 출력
+print(mySolutionOf메뉴리뉴얼(["ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"], [2,3,5]))
