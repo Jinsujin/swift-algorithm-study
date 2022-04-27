@@ -48,6 +48,12 @@
 
 ## 코딩테스트 준비
 
-- [#Programmers-N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895?language=swift) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/N으로 표현.swift)
+- [#Programmers-N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895?language=swift) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/N으로%20표현.swift)
 - [#Programmers-단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/단어변환.swift)
 - [#Programmers-기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) [[풀이]](./Algorithm_Study/Algorithm_Study/Week9/기능개발.swift)
+
+---
+
+## 알고리즘 같이 풀기
+
+- [#Programmers-메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) [[풀이]](./Algorithm_Study/Algorithm_Study/Week10/메뉴리뉴얼.swift)
